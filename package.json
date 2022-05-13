@@ -1,0 +1,23 @@
+{
+  "name": "typescriptproject_drag_and_drop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guimassoqueto/typescriptProject_drag_and_drop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guimassoqueto/typescriptProject_drag_and_drop/issues"
+  },
+  "homepage": "https://github.com/guimassoqueto/typescriptProject_drag_and_drop#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
