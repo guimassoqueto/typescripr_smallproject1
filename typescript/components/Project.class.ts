@@ -1,11 +1,11 @@
-namespace App {
-    export class Project {
-        constructor(
-            public id: string, 
-            public title: string, 
-            public description: string, 
-            public people: number, 
-            public status: ProjectType
-        ){}
-    }
+import { ProjectType } from '../models/enums.js';
+
+export class Project {
+    constructor(
+        public id: string, 
+        public title: string, 
+        public description: string, 
+        public people: number, 
+        public status: ProjectType
+    ){}
 }
