@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "module": "commonjs",                                /* Specify what module code is generated. */
+    "module": "amd",                                /* Specify what module code is generated. */
     "rootDir": "./typescript",                                  /* Specify the root folder within your source files. */
     "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
     "lib": [
@@ -11,6 +11,7 @@
       "ScriptHost"
     ],
     "allowJs": false,
+    "outFile": "./dist/app.js",
     "outDir": "dist",                                   /* Specify an output folder for all emitted files. */
     "removeComments": true,                           /* Disable emitting comments. */
     "noEmitOnError": true,                            /* Disable emitting files if any type checking errors are reported. */

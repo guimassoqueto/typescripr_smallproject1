@@ -9,11 +9,4 @@ namespace App {
         dropHandler(event: DragEvent): void;
         dragLeaveHandler(event: DragEvent): void;
     }
-    
-    
-    export interface UserInput {
-        title: string;
-        description: string;
-        people: number;
-    };
 }
