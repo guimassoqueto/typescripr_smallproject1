@@ -1,6 +1,6 @@
-import { Listener } from '../models/types.js';
-import { Project } from '../components/Project.class.js';
-import { ProjectType } from '../models/enums.js';
+import { Listener } from '../models/types';
+import { Project } from '../components/Project.class';
+import { ProjectType } from '../models/enums';
 
 export abstract class State<T>{
     protected listeners: Listener<T>[] = []

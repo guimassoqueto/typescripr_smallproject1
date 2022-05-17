@@ -1,5 +1,7 @@
-import { ProjectInput } from './components/ProjectInput.class.js';
-import { ProjectList } from './components/ProjectList.class.js';
+import { ProjectInput } from './components/ProjectInput.class';
+import { ProjectList } from './components/ProjectList.class';
+
+console.log('Guilherm Massoqueto')
 
 new ProjectInput();
 new ProjectList('active');

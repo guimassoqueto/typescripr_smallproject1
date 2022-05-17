@@ -1,10 +1,10 @@
-import { Component } from '../components/Component.class.js'; 
-import { DragAndDrop } from '../models/interfaces.js';
-import { Project } from './Project.class.js';
-import { ProjectItem } from './ProjectItem.class.js';
-import { project_state } from '../state/State.class.js';
-import { ProjectType } from '../models/enums.js';
-import { autobind } from '../decorators/autobind.js';
+import { Component } from '../components/Component.class'; 
+import { DragAndDrop } from '../models/interfaces';
+import { Project } from './Project.class';
+import { ProjectItem } from './ProjectItem.class';
+import { project_state } from '../state/State.class';
+import { ProjectType } from '../models/enums';
+import { autobind } from '../decorators/autobind';
 
 export class ProjectList extends Component<HTMLDivElement, HTMLElement> implements DragAndDrop{
     assignedProjects: Project[]; 

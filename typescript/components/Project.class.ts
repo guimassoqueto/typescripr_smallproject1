@@ -1,4 +1,4 @@
-import { ProjectType } from '../models/enums.js';
+import { ProjectType } from '../models/enums';
 
 export class Project {
     constructor(

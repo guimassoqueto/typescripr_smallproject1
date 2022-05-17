@@ -1,6 +1,6 @@
-import { Component } from '../components/Component.class.js'; 
-import { autobind } from '../decorators/autobind.js';
-import { project_state } from '../state/State.class.js';
+import { Component } from '../components/Component.class'; 
+import { autobind } from '../decorators/autobind';
+import { project_state } from '../state/State.class';
 
 interface UserInput {
     title: string;

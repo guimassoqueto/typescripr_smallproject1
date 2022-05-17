@@ -11,6 +11,7 @@
       "ScriptHost"
     ],
     "allowJs": false,
+    "sourceMap": true,
     //"outFile": "./dist/app.js",
     "outDir": "dist",                                   /* Specify an output folder for all emitted files. */
     "removeComments": true,                           /* Disable emitting comments. */
